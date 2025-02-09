@@ -19,7 +19,9 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # artist_id = artist['id']
 
 # Get artist's information including followers
-artist_info = sp.track("6PCUP3dWmTjcTtXY02oFdT", "US")
+# artist_info = sp.track("6PCUP3dWmTjcTtXY02oFdT", "US")
+# pprint.pprint(artist_info)
+
 
 # user_info = sp.user("259b2qh7yg5yvjgkg2fxlvi29")
 #
@@ -27,4 +29,4 @@ artist_info = sp.track("6PCUP3dWmTjcTtXY02oFdT", "US")
 # # followers_countries = sp.artist_followers(artist_id)['countries']
 # #
 # # print("Sample of followers' countries:", followers_countries)
-pprint.pprint(artist_info)
+
