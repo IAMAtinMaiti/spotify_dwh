@@ -1,4 +1,0 @@
-ENV: Local
-SECRETS:
-  CLIENT_ID: 5ba8fc8e1ecd45d59bdb09bc6a01ecba
-  CLIENT_SECRET: acc32b5847ee4457bcf8c7ab6248af78

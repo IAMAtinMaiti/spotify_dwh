@@ -1,10 +1,12 @@
 import streamlit as st
 import requests
 import base64
+from configs import Config
+config = Config()
 
 # Spotify API credentials
-CLIENT_ID = '5ba8fc8e1ecd45d59bdb09bc6a01ecba'
-CLIENT_SECRET = 'acc32b5847ee4457bcf8c7ab6248af78'
+CLIENT_ID = config.get('SECRETS.CLIENT_ID')
+CLIENT_SECRET = config.get('SECRETS.CLIENT_SECRET')
 
 
 def fetch_access_token(client_id, client_secret):
